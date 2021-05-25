@@ -1,0 +1,27 @@
+.field-wrapper{
+    width: 600px;
+    height: 600px;
+    margin: 50px auto;
+}
+.field{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+    cursor: pointer;
+}
+
+.field div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    background: #66CCCC;
+    
+    border: 1px solid #000;
+    font-size: 34px;
+    padding: 0 10px;
+}
+.field .empty{
+    background: #fff;
+}
